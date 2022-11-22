@@ -9,3 +9,13 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model AirPort {
+  id        Int    @id @default(autoincrement())
+  name      String
+  iata      String @unique @db.VarChar(3)
+  city      String
+  country   String
+  longitude Float
+  latitude  Float
+}

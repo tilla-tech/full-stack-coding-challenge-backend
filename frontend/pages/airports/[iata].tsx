@@ -28,7 +28,7 @@ const Page: NextPage<Props> = ({ airport }) => {
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const { iata } = params;
-  const airport = await findAirportByIata(iata.toString());
+  const airport = await findAirportByIata(iata.toString().toUpperCase());
 
   return {
     props: {

@@ -7,4 +7,11 @@ interface Airport {
   latitude: number
 }
 
+
+export interface AirPortResponse {
+  data: Airport[]
+  currentPage: number
+  totalPages: number
+}
+
 export default Airport
