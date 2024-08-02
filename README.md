@@ -12,6 +12,10 @@ You'll be building an endpoint to look up airport information. In its current st
 
 Please move this data into a database scheme on the backend, and then write an endpoint that allows fetching data from the frontend. Your endpoint should allow user to look up airports by searching for airports by name, IATA, city, or country.
 
+The designer gave you this mock-up as a reference. It's fine if the design doesn't look like this, since this exercise focuses on the back-end, but it gives you an idea of where this would go.
+
+![image](https://user-images.githubusercontent.com/144075/144594282-68de44cd-bef2-4d9d-8c5d-398862cbc964.png)
+
 ## Assumptions
 
 - Tilla uses [NestJS](https://nestjs.com), [Prisma](https://www.prisma.io) with PostgreSQL and TypeScript. It'd be cool if you use that same tech stack for this exercise.
@@ -39,7 +43,7 @@ The app is designed to work out of the box.
 
 ```shell
 yarn install
-yarn start
+yarn dev
 ```
 
 The app should be available via [http://localhost:3000](http://localhost:3000).
