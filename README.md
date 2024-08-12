@@ -33,7 +33,7 @@ We'd love to hear your thoughts on some of these questions. Please don't spend m
 
 ## Deliverables
 
-- Invite [@pieterbeulque](https://github.com/pieterbeulque) and [@umartayyab](https://github.com/umartayyab) to a GitHub repo with your completed project
+- Invite [@pieterbeulque](https://github.com/pieterbeulque), [@Calvin-Tilla](https://github.com/Calvin-Tilla), and [@umartayyab](https://github.com/umartayyab) to a GitHub repo with your completed project
 - A video of your screen recording (unlisted YouTube video, Loom, … anything works)
 - Answers to the questions above can be either in the video or written down in the README of your repo
 
