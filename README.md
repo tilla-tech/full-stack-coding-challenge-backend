@@ -12,6 +12,8 @@ You'll be building an endpoint to look up airport information. In its current st
 
 ## What we'd like you to do:
 
+### Task 1: Airport Endpoint
+
 - **Fix the Bug**: There is a Seaports resolver added to the backend, but in some edge-cases when searching for specific ports by specifying their IDs (e.g., 1, 2, 3), it throws an error and is unable to resolve anything. Investigate the issue and add a hotfix.
 - **Optimize airports data**: Please move this data into a database scheme on the backend.
 - **Add an endpoint**: Write an endpoint that allows fetching data from the frontend. Your endpoint should allow user to look up airports by searching for airports by name, IATA, city, or country.
@@ -19,6 +21,41 @@ You'll be building an endpoint to look up airport information. In its current st
 The designer gave you this mock-up as a reference. It's fine if the design doesn't look like this, since this exercise focuses on the back-end, but it gives you an idea of where this would go.
 
 ![image](https://user-images.githubusercontent.com/144075/144594282-68de44cd-bef2-4d9d-8c5d-398862cbc964.png)
+
+### Task 2: Seaport Integrator
+
+One of our clients has noticed that our seaport data is incomplete. An intern at their IT department has kindly made their seaport data available for us.
+Please review the email thread forwarded to you by the product team:
+
+> From: product@tilla
+>
+> Good day,
+>
+> Can you please take a look at the seaport data and see if we can use it to update our seaport data?
+> Ideally, we want our seaport data to be kept in sync with what the client provides us.
+>
+> We anticipate that other clients might also provide us with seaport data in the future.
+>
+> The more data we have, the better!
+>
+> Cheers,
+> Tilla Product Team
+>
+> > From: mike@shippingcompany
+> >
+> > Hi Tilla Team!
+> >
+> > I setup that connector you asked for to our seaports table.
+> > The connector will automatically dump our seaport data to an xl file and upload it to  
+> > an Azure Blob Storage. The automation runs ~2 times per day.
+> >
+> > You'll need a token to connect, which we'll send to you in a separate email.
+> >
+> > Best regards,  
+> > Mike the intern.  
+> > Fracking Fast Freight Logistics
+
+Take ownership of this task as given to you by the product team.
 
 ## Assumptions
 
